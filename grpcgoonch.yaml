@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: grpcgoonch-deployment
+  name: grpcgoonch-nonbalanced-deployment
   labels:
-    app: grpcgoonch
+    app: grpcgoonch-nonbalanced
 spec:
   replicas: 3
   selector:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: grpcgoonch-nonbalanced
-        image: thaigoonch/grpcgoonch-nonbalanced:1.0
+        image: thaigoonch/grpcgoonch-nonbalanced:1.1
         ports:
         - containerPort: 9000
 ---
