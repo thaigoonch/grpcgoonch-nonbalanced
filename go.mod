@@ -1,4 +1,4 @@
-module github.com/thaigoonch/grpcgoonch
+module github.com/thaigoonch/grpcgoonch-nonbalanced
 
 go 1.17
 

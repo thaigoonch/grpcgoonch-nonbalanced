@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	grpcgoonch "github.com/thaigoonch/grpcgoonch/service"
+	grpcgoonch "github.com/thaigoonch/grpcgoonch-nonbalanced/service"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )

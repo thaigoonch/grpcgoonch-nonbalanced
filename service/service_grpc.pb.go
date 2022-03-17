@@ -4,7 +4,7 @@
 // - protoc             v3.6.1
 // source: service.proto
 
-package grpcgoonch
+package grpcgoonch_nonbalanced
 
 import (
 	context "context"

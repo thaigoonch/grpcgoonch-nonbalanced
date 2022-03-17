@@ -12,5 +12,5 @@ RUN apt update ; \
     chmod +x ./generate.sh ; \
     ./generate.sh && \
     go install ./...
-ENTRYPOINT ["/go/bin/grpcgoonch"]
+ENTRYPOINT ["/go/bin/grpcgoonch-nonbalanced"]
 EXPOSE 9000

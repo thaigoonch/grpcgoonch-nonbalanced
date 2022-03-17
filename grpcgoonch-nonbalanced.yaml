@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: grpcgoonch-nonbalanced
-        image: thaigoonch/grpcgoonch-nonbalanced:1.1
+        image: thaigoonch/grpcgoonch-nonbalanced:1.2
         ports:
         - containerPort: 9000
 ---
